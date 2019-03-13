@@ -15,7 +15,7 @@ class LinkedHashMapTest {
     }
 
     @Test
-    void entrySet() {
+    void entrySetShouldWorkCorrectly() {
         map.putIfAbsent(1, "a");
         map.putIfAbsent(3, "c");
         map.putIfAbsent(4, "d");
